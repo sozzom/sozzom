@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T15:32:53.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WO3HafagVCcniB2sEC0P" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T15:40:58.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ztEF1GQbybqOavijCJ9M" version="22.1.0" type="github">
   <diagram name="Pagina-1" id="EockxVnbbHQsWiVnF4Md">
     <mxGraphModel dx="988" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
       <root>
@@ -61,17 +61,62 @@
         <mxCell id="Qs9AMObHrChrNmR5h-xX-26" value="" style="group" vertex="1" connectable="0" parent="Qs9AMObHrChrNmR5h-xX-25">
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qs9AMObHrChrNmR5h-xX-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003000;strokeColor=#005000;" vertex="1" parent="Qs9AMObHrChrNmR5h-xX-26">
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-27" value="Certificate Authority" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003000;strokeColor=#005000;fontColor=#FFFFFF;" vertex="1" parent="Qs9AMObHrChrNmR5h-xX-26">
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qs9AMObHrChrNmR5h-xX-28" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.certificate;pointerEvents=1;" vertex="1" parent="Qs9AMObHrChrNmR5h-xX-26">
           <mxGeometry x="10" y="60" width="25" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Qs9AMObHrChrNmR5h-xX-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003000;strokeColor=#005000;" vertex="1" parent="1">
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-32" value="&lt;font color=&quot;#ffffff&quot;&gt;DAPS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003000;strokeColor=#005000;" vertex="1" parent="1">
           <mxGeometry x="260" y="500" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qs9AMObHrChrNmR5h-xX-33" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.certificate;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="560" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-37" value="provides DAT" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#FFFFFF;" edge="1" parent="1" source="Qs9AMObHrChrNmR5h-xX-32" target="Qs9AMObHrChrNmR5h-xX-7">
+          <mxGeometry x="-0.625" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="540" />
+              <mxPoint x="160" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-38" value="Provides DAT" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFFFF;labelBackgroundColor=none;fontColor=#FFFFFF;verticalAlign=bottom;" edge="1" parent="1" source="Qs9AMObHrChrNmR5h-xX-32">
+          <mxGeometry x="-0.7059" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="720" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="620" />
+              <mxPoint x="740" y="620" />
+              <mxPoint x="740" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-39" value="issues certificate" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#FFFFFF;" edge="1" parent="1" target="Qs9AMObHrChrNmR5h-xX-7">
+          <mxGeometry x="0.3684" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="500" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="440" />
+              <mxPoint x="240" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs9AMObHrChrNmR5h-xX-41" value="issues certificate" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#FFFFFF;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;shape=connector;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qs9AMObHrChrNmR5h-xX-27">
+          <mxGeometry x="0.5" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="440" />
+              <mxPoint x="600" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
