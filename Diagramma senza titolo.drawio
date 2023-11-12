@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T11:17:50.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fdsvo2_V8HLsQPZ0OAXQ" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T13:08:48.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CiScnpf6cfOGFfqhGZbL" version="22.1.0" type="github">
   <diagram name="Pagina-1" id="EockxVnbbHQsWiVnF4Md">
-    <mxGraphModel dx="824" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="424" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,18 +167,18 @@
         </mxCell>
         <UserObject label="Component behaving according to IDS specifications" placeholders="1" name="Variable" id="Qs9AMObHrChrNmR5h-xX-90">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=7;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
-            <mxGeometry x="90" y="80" width="110" height="20" as="geometry" />
+            <mxGeometry x="79" y="409" width="110" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Qs9AMObHrChrNmR5h-xX-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003000;strokeColor=#005000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="40" height="20" as="geometry" />
+          <mxGeometry x="29" y="409" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Qs9AMObHrChrNmR5h-xX-91" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.certificate;pointerEvents=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="25" height="20" as="geometry" />
+          <mxGeometry x="29" y="449" width="25" height="20" as="geometry" />
         </mxCell>
         <UserObject label="Identity Certificate issued by the CA" placeholders="1" name="Variable" id="Qs9AMObHrChrNmR5h-xX-92">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=7;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
-            <mxGeometry x="90" y="120" width="120" height="20" as="geometry" />
+            <mxGeometry x="79" y="449" width="120" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Qs9AMObHrChrNmR5h-xX-93" value="Identity Provider" style="text;strokeColor=none;fillColor=none;html=1;fontSize=11;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" parent="1">
